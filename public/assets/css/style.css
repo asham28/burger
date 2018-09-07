@@ -24,7 +24,7 @@ li {
   }
 
 
-  .burgerAvailable {
+  .burgerToEat {
     font-weight: normal;
     font-size: 20px;
     text-align: center;
@@ -37,7 +37,7 @@ li {
     border: none;
   }
  
-  .burgerAvailable:hover {
+  .burgerToEat:hover {
     background-color: darkgreen;
   }
  
