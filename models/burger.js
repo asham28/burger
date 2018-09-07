@@ -2,7 +2,6 @@ var orm = require("../config/orm.js");
 require("dotenv").config();
 
 
-
 var burger = {
     selectAll: function (cb) {
         orm.selectAll("burgers", function (res) {

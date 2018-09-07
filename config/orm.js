@@ -1,4 +1,6 @@
 var connection = require("./connection.js");
+require("dotenv").config();
+
 
 // Helper function for SQL syntax.
 function printQuestionMarks(num) {

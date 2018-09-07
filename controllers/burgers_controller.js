@@ -11,11 +11,10 @@ var router = express.Router();
 // Create  routes and logic within those routes 
 router.get("/", function (req, res) {
     burger.selectAll(function (data) {
-        // hbsObject = handlebars object
         var hbsObject = {
             burger: data
         };
-        console.log("\nHBSOBJECT " , hbsObject);
+        // console.log("\nHBSOBJECT " , hbsObject);
         res.render("index", hbsObject)
     });
 });
@@ -28,7 +27,7 @@ router.post("/burgers", function (req, res) {
 });
 
 // UPDATE BURGER: DEVOURED CHANGED TO TRUE
-router.put("/burgers/:id", function (req, res) {
+router.post("/burgers/:id", function (req, res) {
     var condition = "id = " + req.params.id;
     console.log("Condition: ", condition);
 

@@ -33,12 +33,12 @@ li {
     width: 100%;
     margin: 10px;
     padding: 10px;
-    background-color: #b7ffc2;
+    background-color: lightgreen;
     border: none;
   }
  
   .burgerAvailable:hover {
-    background-color: #81ff94;
+    background-color: darkgreen;
   }
  
   .burgerEaten {
@@ -49,5 +49,5 @@ li {
     border-radius: 25px;
     margin: 10px;
     padding: 10px;
-    background-color: #ffd1c9;
+    background-color: red;
   }
